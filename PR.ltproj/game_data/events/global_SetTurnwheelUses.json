@@ -1,0 +1,15 @@
+[
+    {
+        "name": "SetTurnwheelUses",
+        "trigger": "level_start",
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 99,
+        "_source": [
+            "game_var;_max_turnwheel_uses;100",
+            "game_var;_current_turnwheel_uses;100"
+        ]
+    }
+]

@@ -1,0 +1,27 @@
+[
+    {
+        "name": "House8",
+        "trigger": "Visit",
+        "level_nid": "1",
+        "condition": "region.nid == 'House8'",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "transition;Close",
+            "change_background;House",
+            "transition;Open",
+            "add_portrait;{unit};Right;no_block",
+            "add_portrait;Ephraim;Left",
+            "speak;Ephraim;Keep this a secret alright,{w} but I have a girlfriend who lives on the south-side.{w}{clear}Does my head in!{w}{clear}Complete psycho!{w}{clear}You wouldn't believe the things she tells me to do in bed.{w}{clear}Never been more embarrassed in my life,{w} but I can't seem to be able to break up with her.{w}{clear}Here, could you take this away from me?{w}{clear}Might be tempted otherwise.",
+            "remove_portrait;{unit};no_block",
+            "remove_portrait;Ephraim",
+            "transition;Close",
+            "change_background",
+            "transition;Open",
+            "give_item;{unit};Killing Edge",
+            "show_layer;House8",
+            "has_attacked;{unit}"
+        ]
+    }
+]

@@ -1,0 +1,31 @@
+[
+    {
+        "nid": "GangUpChild",
+        "name": "GangUpChild",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            6,
+            3
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "STR",
+                        3
+                    ]
+                ]
+            ],
+            [
+                "stack",
+                999
+            ],
+            [
+                "hidden",
+                null
+            ]
+        ]
+    }
+]

@@ -1,0 +1,24 @@
+[
+    {
+        "name": "5CultistsContinued",
+        "trigger": null,
+        "level_nid": "5",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "multi_add_portrait;Ian;MidLeft;Wormwood;FarLeft;Claude;MidLeft",
+            "mirror_portrait;Claude;no_block",
+            "bop_portrait;Ian;no_block",
+            "move_portrait;Claude;MidRight;no_block",
+            "speak;Ian;Bloody hell!",
+            "speak;Claude;Damn.",
+            "speak;Wormwood;Men!",
+            "multi_remove_portrait;Wormwood;Claude;Ian",
+            "# The cultists drive Claude back. Ian and Wormwood move forward",
+            "# todo",
+            "# game resumes"
+        ]
+    }
+]

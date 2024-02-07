@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "Slumber",
+        "name": "Slumber",
+        "desc": "-2 Spd, +2 Def, +2 Res when under attack.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            6,
+            6
+        ],
+        "components": [
+            [
+                "defense_pre_proc",
+                "Slumberchild"
+            ]
+        ]
+    }
+]

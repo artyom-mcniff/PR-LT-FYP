@@ -1,0 +1,17 @@
+[
+    {
+        "name": "0Ingame",
+        "trigger": "turn_change",
+        "level_nid": "0",
+        "condition": "game.turncount == 1",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "multi_add_portrait;Claude;CenterLeft;Claudia;Left",
+            "speak;Claudia;Claude,{w} what's the best course of action here?",
+            "speak;Claude;I attack,{w}you use your staff to let me attack again.",
+            "multi_remove_portrait;Claude;Claudia"
+        ]
+    }
+]

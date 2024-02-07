@@ -1,0 +1,34 @@
+[
+    {
+        "nid": "CP",
+        "name": "Complicated Personality",
+        "desc": "Deals 30 damage to enemies and allies if they are adjacent to this unit.\nFor each point of damage taken, a point of damage is added to the unit's magic stat.\nDamage this unit deals heals this unit for 50% of damage dealt.\nIf turn is odd numbered, doubles damage dealt when using Anima magic, doubles damage received against swords. If turn is even numbered, doubles damage dealt when using Light magic, doubles damage received against axes. If turn is divisible by 10, Dark magic gains +5 range, damage dealt using Dark magic is tripled, damage received by fleas is quadrupled.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            7,
+            0
+        ],
+        "components": [
+            [
+                "aura",
+                "UMPchild"
+            ],
+            [
+                "aura_range",
+                1
+            ],
+            [
+                "aura_target",
+                "unit"
+            ],
+            [
+                "lifelink",
+                0.5
+            ],
+            [
+                "givebacker",
+                null
+            ]
+        ]
+    }
+]

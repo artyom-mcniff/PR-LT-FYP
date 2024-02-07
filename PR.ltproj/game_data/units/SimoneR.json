@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "SimoneR",
+        "name": "Simone.",
+        "desc": "For use in 5 event.",
+        "variant": null,
+        "level": 1,
+        "klass": "Recruit",
+        "tags": [],
+        "bases": {},
+        "growths": {},
+        "stat_cap_modifiers": {},
+        "starting_items": [],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {},
+        "alternate_classes": [],
+        "portrait_nid": "Simone",
+        "affinity": null,
+        "fields": []
+    }
+]

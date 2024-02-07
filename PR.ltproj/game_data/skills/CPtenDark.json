@@ -1,0 +1,30 @@
+[
+    {
+        "nid": "CPtenDark",
+        "name": "CPtenDark",
+        "desc": "If turn is 10, add 5 to range, multiply damage by three, if weapon is Dark magic.",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "condition",
+                "game.turncount % 10 == 0 and (unit.get_weapon() and item_system.weapon_type(unit, unit.get_weapon()) == 'Dark')"
+            ],
+            [
+                "modify_maximum_range",
+                5
+            ],
+            [
+                "damage_multiplier",
+                3.0
+            ],
+            [
+                "hidden",
+                null
+            ]
+        ]
+    }
+]

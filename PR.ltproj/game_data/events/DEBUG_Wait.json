@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Wait",
+        "trigger": "unit_wait",
+        "level_nid": "DEBUG",
+        "condition": "True",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            ""
+        ]
+    }
+]

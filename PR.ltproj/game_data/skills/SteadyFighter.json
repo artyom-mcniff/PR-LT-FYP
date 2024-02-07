@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "SteadyFighter",
+        "name": "Steady Fighter",
+        "desc": "+10 to Hit and Avoid on flat ground.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            9,
+            0
+        ],
+        "components": [
+            [
+                "condition",
+                "game.tilemap.get_terrain(unit.position) in ('1','4','6','7')"
+            ],
+            [
+                "hit",
+                10
+            ],
+            [
+                "avoid",
+                10
+            ]
+        ]
+    }
+]

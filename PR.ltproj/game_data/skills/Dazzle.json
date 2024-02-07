@@ -1,0 +1,30 @@
+[
+    {
+        "nid": "Dazzle",
+        "name": "Dazzle",
+        "desc": "Dazzed",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "combat_condition",
+                "target.get_weapon() and item_system.weapon_type(target, target.get_weapon()) == 'Propitiation' and game.phase.current != unit.team"
+            ],
+            [
+                "item_override",
+                "Elysian Whip"
+            ],
+            [
+                "hidden",
+                null
+            ],
+            [
+                "global",
+                null
+            ]
+        ]
+    }
+]

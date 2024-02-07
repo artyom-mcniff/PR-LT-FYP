@@ -1,0 +1,18 @@
+[
+    {
+        "name": "AliceHamsenTalk",
+        "trigger": "on_talk",
+        "level_nid": "6",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "multi_add_portrait;Alice;MidLeft;Hamsen;MidRight",
+            "speak;Alice;Sir - father, who are those two magicians, and how do the two princes know them?",
+            "speak;Hamsen;Claude and Claudia?{w}{clear}Their Father -{w} the twins' father -{w} his name,{w} for some reason,{w} escapes me...{w} anyway, he was an aristocrat,{w} one of the more influential members of the aristocracy,{w} and good friends with King Gustave.{w}{clear}They would visit each other often just out of pleasure,{w} to discuss -{w} well I'm not quite sure. Doubtless something important.{w}{clear}I had just been made head of the Royal Guard,{w} so I was able to witness their first meeting.{w}{clear}In that usual sociable sort of way kids are at that age,{w} they quickly struck up a friendship. And here they are now.",
+            "speak;Alice;Right. Thank you.",
+            "multi_remove_portrait;Alice;Hamsen"
+        ]
+    }
+]

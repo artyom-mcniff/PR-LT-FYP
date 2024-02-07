@@ -1,0 +1,17 @@
+[
+    {
+        "name": "IanFight",
+        "trigger": "combat_start",
+        "level_nid": "7",
+        "condition": "(unit.nid == 'Ian' and unit2.team == 'player') or (unit.team == 'player' and unit2.nid == 'Ian')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "music;DeafToAllButTheSong",
+            "u;Ian;FarLeft",
+            "speak;Ian;Hello.{w}{clear}My name is Ian.{w}{clear}I'm mercenary.{w}{clear}I am a very good.{w}{clear}Please hire me.{w}{clear}Kind regards,{w}{clear}Ian.",
+            "r;Ian"
+        ]
+    }
+]

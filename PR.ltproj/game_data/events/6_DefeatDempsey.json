@@ -1,0 +1,14 @@
+[
+    {
+        "name": "DefeatDempsey",
+        "trigger": "combat_end",
+        "level_nid": "6",
+        "condition": "game.check_dead(\"Dempsey\")",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "win_game"
+        ]
+    }
+]

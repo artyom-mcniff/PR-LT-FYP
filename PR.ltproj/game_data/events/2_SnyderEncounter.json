@@ -1,0 +1,17 @@
+[
+    {
+        "name": "SnyderEncounter",
+        "trigger": "combat_start",
+        "level_nid": "2",
+        "condition": "(unit.nid == 'Snyder' and unit2.team == 'player') or (unit.team == 'player' and unit2.nid == 'Snyder')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "music;DeafToAllButTheSong",
+            "add_portrait;Snyder;Left",
+            "speak;Snyder;I abhor violence.{w}{clear}Do not fight me.{w}{clear}Let me instead kill you peacefully.{w}{clear}Rest assured,{w} I will feel very bad about it afterwards.",
+            "r;Snyder"
+        ]
+    }
+]

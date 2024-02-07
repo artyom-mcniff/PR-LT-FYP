@@ -1,0 +1,27 @@
+[
+    {
+        "name": "House2",
+        "trigger": "Visit",
+        "level_nid": "1",
+        "condition": "region.nid == 'House2'",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "transition;Close",
+            "change_background;House",
+            "transition;Open",
+            "add_portrait;{unit};Right;no_block",
+            "add_portrait;Joshua;Left",
+            "speak;Joshua;Excuse me,{w} what are you doing in my house?{w}{clear}My fault for not locking the door,{w} but still.{w}{clear}You want something?{w}{clear}Real greed man you are.{w}{clear}Take this and get out of here.",
+            "remove_portrait;{unit};no_block",
+            "remove_portrait;Joshua",
+            "transition;Close",
+            "change_background",
+            "transition;Open",
+            "give_item;{unit};Slim Lance",
+            "show_layer;House2",
+            "has_attacked;{unit}"
+        ]
+    }
+]

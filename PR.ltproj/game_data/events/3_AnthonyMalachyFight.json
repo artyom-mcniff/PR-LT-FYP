@@ -1,0 +1,18 @@
+[
+    {
+        "name": "AnthonyMalachyFight",
+        "trigger": "combat_start",
+        "level_nid": "3",
+        "condition": "check_pair('Anthony', 'Malachy')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "music;DeafToAllButTheSong",
+            "multi_add_portrait;Anthony;FarRight;Malachy;FarLeft",
+            "speak;Malachy;I'm not scared of you!",
+            "speak;Anthony;Must not have the best sense of self-preservation.",
+            "multi_remove_portrait;Anthony;Malachy"
+        ]
+    }
+]

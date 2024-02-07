@@ -1,0 +1,21 @@
+[
+    {
+        "name": "JamesNorrisFight",
+        "trigger": "combat_start",
+        "level_nid": "1",
+        "condition": "check_pair('James', 'Norris')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "music;DeafToAllButTheSong",
+            "multi_add_portrait;James;FarRight;Norris;FarLeft",
+            "speak;James;Look who it is!",
+            "speak;Norris;Do I know you?",
+            "speak;James;Don't be so rude, Norris.{w} Surely you remember me?",
+            "speak;Norris;...John?",
+            "speak;James;James, you bastard!",
+            "multi_remove_portrait;James;Norris"
+        ]
+    }
+]

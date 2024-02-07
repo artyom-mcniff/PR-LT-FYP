@@ -1,0 +1,23 @@
+[
+    {
+        "name": "EventResurrect",
+        "trigger": "level_end",
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 99,
+        "_source": [
+            "# for post-battle event scripts to work as intended.",
+            "# is there a better way to do this? yes. do I have the time? no.",
+            "resurrect;Hamsen",
+            "resurrect;James",
+            "resurrect;Elizabeth",
+            "resurrect;Bella",
+            "resurrect;Alice",
+            "resurrect;Simone",
+            "resurrect;Cindy",
+            "resurrect;Brutus"
+        ]
+    }
+]

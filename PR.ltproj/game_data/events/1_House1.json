@@ -1,0 +1,26 @@
+[
+    {
+        "name": "House1",
+        "trigger": "Visit",
+        "level_nid": "1",
+        "condition": "region.nid == 'House1'",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "transition;Close",
+            "change_background;House",
+            "transition;Open",
+            "add_portrait;{unit};Right;no_block",
+            "add_portrait;Villager Man 1;Left",
+            "speak;Villager Man 1;Norris looks to be back at it again,{w} throwing a tantrum as usual.{w}{clear}I've nothing to give you, unfortunately,{w} but I'm sure if you check out the other houses,{w} they'll be more than willing to help you.{w}{clear}Best of luck.",
+            "remove_portrait;{unit};no_block",
+            "remove_portrait;Villager Man 1",
+            "transition;Close",
+            "change_background",
+            "transition;Open",
+            "show_layer;House1",
+            "has_attacked;{unit}"
+        ]
+    }
+]

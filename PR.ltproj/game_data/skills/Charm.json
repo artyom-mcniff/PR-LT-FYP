@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Charm",
+        "name": "Charm",
+        "desc": "Boost to hit and avoid. James personal skill.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            2,
+            9
+        ],
+        "components": [
+            [
+                "aura",
+                "Charm_child"
+            ],
+            [
+                "aura_range",
+                3
+            ],
+            [
+                "aura_target",
+                "ally"
+            ]
+        ]
+    }
+]

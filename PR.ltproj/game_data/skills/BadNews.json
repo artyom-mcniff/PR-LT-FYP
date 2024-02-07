@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "BadNews",
+        "name": "Bad News",
+        "desc": "15 damage to enemies standing next to the unit on start of unit's turn.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            10,
+            8
+        ],
+        "components": [
+            [
+                "aura_range",
+                1
+            ],
+            [
+                "aura",
+                "BNC"
+            ],
+            [
+                "aura_target",
+                "enemy"
+            ]
+        ]
+    }
+]

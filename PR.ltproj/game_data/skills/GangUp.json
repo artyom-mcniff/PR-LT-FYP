@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "GangUp",
+        "name": "Gang Up",
+        "desc": "+3 to Strength of allies within three spaces",
+        "icon_nid": "Skills",
+        "icon_index": [
+            6,
+            3
+        ],
+        "components": [
+            [
+                "aura",
+                "GangUpChild"
+            ],
+            [
+                "aura_range",
+                3
+            ],
+            [
+                "aura_target",
+                "ally"
+            ]
+        ]
+    }
+]

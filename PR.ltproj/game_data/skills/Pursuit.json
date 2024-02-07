@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "Pursuit",
+        "name": "Pursuit",
+        "desc": "Unit can double attack if speed is 2 points higher than the enemy.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            6,
+            0
+        ],
+        "components": [
+            [
+                "attack_speed",
+                2
+            ]
+        ]
+    }
+]

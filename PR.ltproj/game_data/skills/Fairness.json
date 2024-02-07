@@ -1,0 +1,35 @@
+[
+    {
+        "nid": "Fairness",
+        "name": "Fairness",
+        "desc": "Str * 1.5, Def * 1.5, Res * 1.5 if unit fights on same terrain as enemy.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            10,
+            9
+        ],
+        "components": [
+            [
+                "stat_multiplier",
+                [
+                    [
+                        "STR",
+                        1.5
+                    ],
+                    [
+                        "DEF",
+                        1.5
+                    ],
+                    [
+                        "RES",
+                        1.5
+                    ]
+                ]
+            ],
+            [
+                "combat_condition",
+                "game.tilemap.get_terrain(unit.position) == game.tilemap.get_terrain(target.position)"
+            ]
+        ]
+    }
+]

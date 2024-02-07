@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "KeyedRhythmOdd",
+        "name": "Keyed Rhythm",
+        "desc": "+20 Avoid on odd turns, +20 Crit on even turns.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            8,
+            0
+        ],
+        "components": [
+            [
+                "condition",
+                "game.turncount % 2 == 1"
+            ],
+            [
+                "avoid",
+                20
+            ]
+        ]
+    }
+]

@@ -1,0 +1,19 @@
+[
+    {
+        "name": "DeathNorrisC",
+        "trigger": "unit_death",
+        "level_nid": null,
+        "condition": "unit.nid == 'NorrisC'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "u;Norris;FarRight",
+            "s;Norris;You are by far the stupidest group of people I've ever met in my entire life.{w}{clear}Dying here is a blessing.",
+            "expression;Norris;CloseEyes",
+            "wait;500",
+            "r;Norris",
+            "lose_game"
+        ]
+    }
+]

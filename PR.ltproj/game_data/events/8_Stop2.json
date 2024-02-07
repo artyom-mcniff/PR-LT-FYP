@@ -1,0 +1,21 @@
+[
+    {
+        "name": "Stop2",
+        "trigger": null,
+        "level_nid": "8",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "#Morrissey: I don\u2019t know what you want me to do.",
+            "#Benson: Surely there\u2019s something?",
+            "#Morrissey: My forces are depleted and they\u2019re too far away.",
+            "#Benson: She\u2019s your own sister and you won\u2019t even raise a hand to help her!",
+            "#Morrissey: Don\u2019t get sanctimonious with me when you don\u2019t even know the full story. I won\u2019t help them, and that\u2019s the end of it, and you can\u2019t help them, so just leave.",
+            "#Benson: \u2026",
+            "#Benson leaves",
+            ""
+        ]
+    }
+]

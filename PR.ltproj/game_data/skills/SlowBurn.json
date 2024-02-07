@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "SlowBurn",
+        "name": "Slow Burn",
+        "desc": "+1 to Hit and Avoid, increased by 1 each turn. Capped at 15.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            2,
+            10
+        ],
+        "components": [
+            [
+                "eval_avoid",
+                "1*game.turncount if game.turncount <= 15 else 15"
+            ],
+            [
+                "eval_hit",
+                "1*game.turncount if game.turncount <= 15 else 15"
+            ]
+        ]
+    }
+]

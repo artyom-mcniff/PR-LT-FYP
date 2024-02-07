@@ -1,0 +1,26 @@
+[
+    {
+        "name": "ClaudeClaudiaLeaving",
+        "trigger": "Escape",
+        "level_nid": "5",
+        "condition": "region.nid == 'Escape'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "move_unit;Claude;1,18;normal;closest;no_block",
+            "move_unit;Claudia;2,18;normal;closest",
+            "multi_add_portrait;Claude;MidLeft;Claudia;MidRight",
+            "speak;Claude;What are you waiting for, Claudia?",
+            "speak;Claudia;But shouldn't we -",
+            "mirror_portrait;Claude;no_block",
+            "move_portrait;Claude;OffscreenLeft;no_block",
+            "speak;Claude;Come on!",
+            "move_unit;Claude;0,18;normal;stack",
+            "remove_unit;Claude;immediate;west",
+            "multi_remove_portrait;Claude;Claudia",
+            "move_unit;Claudia;0,18;normal;stack",
+            "remove_unit;Claude;immediate;west"
+        ]
+    }
+]

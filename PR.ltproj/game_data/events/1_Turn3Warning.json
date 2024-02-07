@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Turn3Warning",
+        "trigger": "turn_change",
+        "level_nid": "1",
+        "condition": "game.turncount == 3",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Norris;Right",
+            "speak;Norris;Where are those reinforcements...",
+            "r;Norris"
+        ]
+    }
+]

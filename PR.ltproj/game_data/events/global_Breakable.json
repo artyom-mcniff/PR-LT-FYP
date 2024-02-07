@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Breakable",
+        "trigger": "unit_death",
+        "level_nid": null,
+        "condition": "unit.nid == 'Snag1'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "# Show destruction anim",
+            "map_anim;Snag;{position}",
+            "# Show the new layer",
+            "#show_layer;Breakable1"
+        ]
+    }
+]

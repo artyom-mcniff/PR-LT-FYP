@@ -1,0 +1,136 @@
+[
+    {
+        "nid": "Snyder",
+        "name": "Snyder",
+        "desc": "A man with an unheathly obsession.",
+        "variant": null,
+        "level": 1,
+        "klass": "SnyderMage",
+        "tags": [
+            "Boss"
+        ],
+        "bases": {
+            "HP": 33,
+            "STR": 0,
+            "MAG": 8,
+            "SKL": 6,
+            "SPD": 10,
+            "LCK": 1,
+            "DEF": 6,
+            "RES": 4,
+            "CON": 0,
+            "MOV": 5,
+            "LEAD": 0
+        },
+        "growths": {
+            "HP": 110,
+            "STR": 40,
+            "MAG": 45,
+            "SKL": 75,
+            "SPD": 80,
+            "LCK": 90,
+            "DEF": 70,
+            "RES": 40,
+            "CON": 0,
+            "MOV": 1,
+            "LEAD": 0
+        },
+        "stat_cap_modifiers": {
+            "RES": 0,
+            "MOV": 0,
+            "HP": 0,
+            "CON": 0,
+            "STR": 0,
+            "SKL": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "MAG": 0,
+            "SPD": 0,
+            "LEAD": 0
+        },
+        "starting_items": [
+            [
+                "Lightning",
+                false
+            ],
+            [
+                "Flux",
+                false
+            ],
+            [
+                "Fire",
+                false
+            ]
+        ],
+        "learned_skills": [
+            [
+                1,
+                "CP"
+            ],
+            [
+                1,
+                "CPoddAnima"
+            ],
+            [
+                1,
+                "CPevenLight"
+            ],
+            [
+                1,
+                "CPtenDark"
+            ]
+        ],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                251
+            ],
+            "Lance": [
+                false,
+                0,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                false,
+                1,
+                251
+            ],
+            "Anima": [
+                false,
+                31,
+                251
+            ],
+            "Dark": [
+                false,
+                121,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Snyder",
+        "affinity": "Dark",
+        "fields": []
+    }
+]

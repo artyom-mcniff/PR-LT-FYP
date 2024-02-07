@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "RuleOfThree",
+        "name": "Rule Of Three",
+        "desc": "+33 to Hit and Avoid for the first 3 turns.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            3
+        ],
+        "components": [
+            [
+                "condition",
+                "game.turncount <= 3"
+            ],
+            [
+                "hit",
+                20
+            ],
+            [
+                "avoid",
+                20
+            ]
+        ]
+    }
+]

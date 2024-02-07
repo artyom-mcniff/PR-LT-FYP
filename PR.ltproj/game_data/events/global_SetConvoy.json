@@ -1,0 +1,14 @@
+[
+    {
+        "name": "SetConvoy",
+        "trigger": "on_startup",
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "game_var;_convoy;1"
+        ]
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Instruct",
+        "name": "Instruct",
+        "desc": "+15 Hit, +2 Mag, +2 Res to allies within 3 spaces.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            10,
+            4
+        ],
+        "components": [
+            [
+                "aura",
+                "Instructchild"
+            ],
+            [
+                "aura_range",
+                3
+            ],
+            [
+                "aura_target",
+                "ally"
+            ]
+        ]
+    }
+]

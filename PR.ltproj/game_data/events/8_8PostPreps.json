@@ -1,0 +1,27 @@
+[
+    {
+        "name": "8PostPreps",
+        "trigger": null,
+        "level_nid": "8",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "multi_add_portrait;Chelsea;OffscreenLeft;Marcel;MidRight",
+            "move_portrait;Chelsea;MidLeft",
+            "speak;Chelsea;Message to Marcel.",
+            "speak;Marcel;Thank you............... {w}I see.|Tell him I said 'no',{w} but make it sound as if you're putting it politely,{w} and that I actually said something far worse.",
+            "expression;Chelsea;Smile",
+            "speak;Chelsea;Affirmative.",
+            "# Chelsea returns the message. Soon, a stream of troops pours out from the border castle.",
+            "multi_remove_portrait;Marcel;Chelsea",
+            "add_portrait;Fintan;Left",
+            "# fintan's big speech",
+            "speak;Fintan;Men.|Remember the plan.{w}{clear}Put up a fight,{w} else,{w} lead them in.",
+            "speak;;An entire country ruled by pettiness.{w}{clear}Endured the orders.{w}{clear}And for what?{w}{clear}What have I spent my life trying to achieve?{w}{clear}All this over a girl and boy.{w}{clear}Half an army for a girl and boy.{w}{clear}All my life spent in restraint.{w}{clear}And for what?{w}{clear}All this because of you.{w}{clear}Marcel Milieu.{w}{clear}If I have any ounce of self-respect,{w} I will kill you.;;;clear;;;text-green",
+            "remove_portrait;Fintan",
+            "# battle start"
+        ]
+    }
+]

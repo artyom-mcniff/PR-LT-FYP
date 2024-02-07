@@ -1,0 +1,27 @@
+[
+    {
+        "name": "House6",
+        "trigger": "Visit",
+        "level_nid": "1",
+        "condition": "region.nid == 'House6'",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "transition;Close",
+            "change_background;House",
+            "transition;Open",
+            "add_portrait;{unit};Right;no_block",
+            "add_portrait;Villager Old Woman 2;Left",
+            "speak;Villager Old Woman 2;Husband died last week.{w}{clear}He left behind this book.{w}{clear}Take it away.{w}{clear}There's nothing wrong with it at all.",
+            "remove_portrait;{unit};no_block",
+            "remove_portrait;Villager Old Woman 2",
+            "transition;Close",
+            "change_background",
+            "transition;Open",
+            "give_item;{unit};Nosferatu",
+            "show_layer;House6",
+            "has_attacked;{unit}"
+        ]
+    }
+]

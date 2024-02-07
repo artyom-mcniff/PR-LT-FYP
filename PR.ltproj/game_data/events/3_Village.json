@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Village",
+        "trigger": null,
+        "level_nid": "3",
+        "condition": "region.nid == 'Village'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "transition;Close",
+            "change_background;Village",
+            "transition;Open",
+            "add_portrait;{unit};Right;no_block",
+            "add_portrait;Innes;Left",
+            "speak;Innes;Dooba dabba.{w} A-dooba-dooba-dabba-do.{w}{clear}Hey, don't look at me like I'm some sort of dunce.{w}{clear}Can't I have a bit of fun?{w}{clear}Problem with you is that you take life too seriously.{w}{clear}Yes, there ARE people trying to kill you,{w} true,{w} but then,{w} everyone's trying to kill everyone they don't know,{w} because they think they know enough,{w} and don't want to know what they don't know,{w} you know?{w}{clear}But that's actually the wrong way of going about it!{w}{clear}Nostalgia for a time of blissful ignorance is a mistaken concept entirely.{w}{clear}The pleasure comes not from your past ignorance,{w} but from your present knowledge,{w} which exceeds that of your ignorant past.{w}{clear}Now you know, see?{w}{clear}It's good to know!{w}{clear}Now, I know you want something.{w}{clear}A bow?{w}{clear}Will this do?{w}{clear}No,{w} thank you!",
+            "remove_portrait;{unit};no_block",
+            "remove_portrait;Innes",
+            "transition;Close",
+            "change_background",
+            "transition;Open",
+            "give_item;{unit};Killer Bow",
+            "show_layer;villageclosed",
+            "has_attacked;{unit}"
+        ]
+    }
+]

@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "Paragon",
+        "name": "Paragon",
+        "desc": "Boost to experience gained.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            1,
+            9
+        ],
+        "components": [
+            [
+                "exp_multiplier",
+                2.0
+            ]
+        ]
+    }
+]

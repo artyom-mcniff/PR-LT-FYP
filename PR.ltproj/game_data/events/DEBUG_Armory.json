@@ -1,0 +1,24 @@
+[
+    {
+        "name": "Armory",
+        "trigger": "Armory",
+        "level_nid": "DEBUG",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "# 2route",
+            "# Anthony 9,5",
+            "# Elizabeth enters 14,0",
+            "# Elizabeth moves 10,5",
+            "# Marcel 8,6",
+            "# Mad 8,7",
+            "# Norris 9,7",
+            "# James 10,7",
+            "# Bella 9,8",
+            "# Hamsen 8,7",
+            "# Alice 8,8"
+        ]
+    }
+]

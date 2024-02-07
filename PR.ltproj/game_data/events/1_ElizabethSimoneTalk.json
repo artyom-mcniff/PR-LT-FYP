@@ -1,0 +1,24 @@
+[
+    {
+        "name": "ElizabethSimoneTalk",
+        "trigger": "on_talk",
+        "level_nid": "1",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "multi_add_portrait;Elizabeth;OffscreenLeft;Simone;MidRight",
+            "s;Simone;Time to go.",
+            "mirror_portrait;Simone",
+            "move_portrait;Simone;OffscreenRight;no_block",
+            "r;Simone",
+            "move_unit;Simone;29,5;normal;closest",
+            "remove_unit;Simone;immediate",
+            "move_portrait;Elizabeth;MidLeft",
+            "speak;Elizabeth;She dropped something.",
+            "give_item;Elizabeth;Angelic Robe",
+            "r;Elizabeth"
+        ]
+    }
+]

@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "MercyArt",
+        "name": "Mercy",
+        "desc": "Killing blows leave the enemy at 1 HP. Royal class skill.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            6,
+            10
+        ],
+        "components": [
+            [
+                "combat_art",
+                "Mercy"
+            ]
+        ]
+    }
+]

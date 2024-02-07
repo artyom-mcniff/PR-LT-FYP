@@ -1,0 +1,40 @@
+[
+    {
+        "name": "6Turn2",
+        "trigger": "turn_change",
+        "level_nid": "6",
+        "condition": "game.turncount == 2",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "# Claude, Claudia arrives. James arrives soon after.",
+            "multi_add_portrait;James;OffscreenLeft;Claude;OffscreenLeft;Claudia;OffscreenRight",
+            "move_portrait;Claude;FarRight",
+            "move_portrait;James;MidLeft",
+            "speak;James;Where do you think you're going!",
+            "speak;Claude;Oh, shut up...",
+            "speak;James;You're exhausted,{w} you need to rest in order to recover!",
+            "speak;Claude;If I believe I'm not tired,{w} then I'm not tired.",
+            "speak;James;Are you crazy?",
+            "speak;Claude;It's a bad habit to ask rhetorical questions!",
+            "move_portrait;Claudia;MidRight;no_block",
+            "speak;Claudia;Claude!",
+            "mirror_portrait;Claude",
+            "speak;Claudia;Hey.",
+            "speak;Claudia;Hey.",
+            "speak;Claude;Me falling over was just one of those desert mirage illusions.",
+            "speak;Claudia;Good.",
+            "speak;Claude;Good.",
+            "speak;Claudia;I'm happy you're okay.",
+            "speak;Claude;Me too.",
+            "speak;Claudia;Is that the nurse behind you?",
+            "speak;Claude;Let's keep moving.",
+            "move_portrait;Claude;OffscreenRight;1.0;no_block",
+            "move_portrait;Claudia;OffscreenRight;no_block",
+            "multi_remove_portrait;Claude;Claudia;James",
+            "# James moves",
+            "# Battle resumes"
+        ]
+    }
+]

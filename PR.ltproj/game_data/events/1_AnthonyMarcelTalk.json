@@ -1,0 +1,18 @@
+[
+    {
+        "name": "AnthonyMarcelTalk",
+        "trigger": "on_talk",
+        "level_nid": "1",
+        "condition": "check_pair('Anthony', 'Marcel')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "multi_add_portrait;Marcel;MidLeft;Anthony;MidRight",
+            "s;Marcel;Here.",
+            "s;Anthony;Thanks.",
+            "give_item;Anthony;Vulnerary",
+            "multi_remove_portrait;Anthony;Marcel"
+        ]
+    }
+]

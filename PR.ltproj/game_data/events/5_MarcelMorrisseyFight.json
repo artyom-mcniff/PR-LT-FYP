@@ -1,0 +1,18 @@
+[
+    {
+        "name": "MarcelMorrisseyFight",
+        "trigger": "combat_start",
+        "level_nid": "5",
+        "condition": "check_pair('Marcel', 'Morrissey')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "music;DeafToAllButTheSong",
+            "multi_add_portrait;Marcel;FarRight;Morrissey;FarLeft",
+            "speak;Marcel;No hard feelings.",
+            "speak;Morrissey;Sure.",
+            "multi_remove_portrait;Marcel;Morrissey"
+        ]
+    }
+]

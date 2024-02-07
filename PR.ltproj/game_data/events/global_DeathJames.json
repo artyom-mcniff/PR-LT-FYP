@@ -1,0 +1,16 @@
+[
+    {
+        "name": "DeathJames",
+        "trigger": "unit_death",
+        "level_nid": null,
+        "condition": "unit.nid == 'James'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "u;James;FarRight",
+            "s;James;You're so lucky that hit me I swear to God.{w}{clear}Maybe instead of fighting you go play the lottery or something Jesus Christ.",
+            "r;James"
+        ]
+    }
+]

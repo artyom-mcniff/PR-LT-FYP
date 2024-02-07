@@ -1,0 +1,27 @@
+[
+    {
+        "name": "House7 ",
+        "trigger": "Visit",
+        "level_nid": "1",
+        "condition": "region.nid == 'House7'",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "transition;Close",
+            "change_background;House",
+            "transition;Open",
+            "add_portrait;{unit};Right;no_block",
+            "add_portrait;Gilliam;Left",
+            "speak;Gilliam;Get out of my house.{w}{clear}Take this before I throw it at you.",
+            "remove_portrait;{unit};no_block",
+            "remove_portrait;Gilliam",
+            "transition;Close",
+            "change_background",
+            "transition;Open",
+            "give_item;{unit};Javelin",
+            "show_layer;House7",
+            "has_attacked;{unit}"
+        ]
+    }
+]

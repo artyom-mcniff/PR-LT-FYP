@@ -1,0 +1,20 @@
+[
+    {
+        "name": "DeathSnyder",
+        "trigger": "unit_death",
+        "level_nid": "2",
+        "condition": "unit.nid == 'Snyder'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "u;Snyder;Left",
+            "expression;Snyder;Smile",
+            "s;Snyder;Thank you.",
+            "wait;500",
+            "expression;Snyder;CloseEyes",
+            "wait;500",
+            "r;Snyder"
+        ]
+    }
+]

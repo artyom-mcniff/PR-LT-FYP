@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "UMPchild",
+        "name": "UMPchild",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            10,
+            8
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "upkeep_damage",
+                30
+            ]
+        ]
+    }
+]

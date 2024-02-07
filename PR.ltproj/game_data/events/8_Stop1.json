@@ -1,0 +1,18 @@
+[
+    {
+        "name": "Stop1",
+        "trigger": null,
+        "level_nid": "8",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "#Woman: Charles? What took you so long, Charles?",
+            "#Charles: What? Oh. Nothing. Someone dumped a bunch #of paper on the ground in town.",
+            "#Woman: Do you have the milk?",
+            "#Charles: Course I do.",
+            ""
+        ]
+    }
+]

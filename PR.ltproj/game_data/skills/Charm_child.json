@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Charm_child",
+        "name": "Charm_child",
+        "desc": "Boost to hit and avoid. James personal skill.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            2,
+            9
+        ],
+        "components": [
+            [
+                "hit",
+                15
+            ],
+            [
+                "avoid",
+                20
+            ],
+            [
+                "hidden",
+                null
+            ]
+        ]
+    }
+]

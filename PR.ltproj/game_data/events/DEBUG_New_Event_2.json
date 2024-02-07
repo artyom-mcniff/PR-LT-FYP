@@ -1,0 +1,17 @@
+[
+    {
+        "name": "New Event_2",
+        "trigger": "level_start",
+        "level_nid": "DEBUG",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "load_unit;Simone;other",
+            "# corridor",
+            "add_unit;Simone;7,29",
+            "move_unit;Simone;7,0"
+        ]
+    }
+]

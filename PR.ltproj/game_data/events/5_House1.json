@@ -1,0 +1,41 @@
+[
+    {
+        "name": "House1",
+        "trigger": null,
+        "level_nid": "5",
+        "condition": "region.nid == 'House1'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "transition;Close",
+            "change_background;WolfstockHouse",
+            "transition;Open",
+            "add_portrait;{unit};Right;no_block",
+            "add_portrait;Colm;FarLeft",
+            "add_portrait;Neimi;MidLeft;mirror",
+            "speak;Colm;Help me!{w}{clear}God, please help me!",
+            "speak;Neimi;Hold -{w} still -{w} you -{w} little -{w}",
+            "mirror_portrait;Neimi",
+            "speak;Neimi;Uhh, excuse me?{w}{clear}Can't you see I'm a little busy at the moment?{w}{clear}If you're here to steal something or whatever,{w} just take whatever's on the desk -",
+            "speak;Colm;Please!{w}{clear}You have no idea what this woman is planning!",
+            "speak;Colm;She's -;;;no_block",
+            "wait;500",
+            "mirror_portrait;Neimi",
+            "sound;metalbar",
+            "bop_portrait;Colm;no_block",
+            "remove_portrait;Colm",
+            "mirror_portrait;Neimi",
+            "speak;Neimi;So yeah like I was saying,{w} just take whatever's on the desk,{w} and get the hell out of my house -{w} well it's not actually my house,{w} but you know what I mean.",
+            "remove_portrait;{unit};no_block",
+            "remove_portrait;Neimi",
+            "transition;Close",
+            "change_background",
+            "transition;Open",
+            "show_layer;house1",
+            "give_item;{unit};Slim Lance",
+            "#show_layer;House1",
+            "has_attacked;{unit}"
+        ]
+    }
+]

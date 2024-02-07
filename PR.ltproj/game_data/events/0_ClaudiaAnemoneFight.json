@@ -1,0 +1,18 @@
+[
+    {
+        "name": "ClaudiaAnemoneFight",
+        "trigger": "combat_start",
+        "level_nid": "0",
+        "condition": "check_pair('Anemone', 'Claudia')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "music;DeafToAllButTheSong;no_warn",
+            "multi_add_portrait;Claudia;FarRight;Anemone;FarLeft",
+            "speak;Claudia;Stay away from me.",
+            "speak;Anemone;No.",
+            "multi_remove_portrait;Claudia;Anemone"
+        ]
+    }
+]
